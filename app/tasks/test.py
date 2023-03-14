@@ -1,7 +1,54 @@
 import celery
 import requests
+import psycopg2
+import re
+
+
+class DB:
+
+    def __init__(self):
+        self.conn = None
+
+    def connect(self):
+        if self.conn:
+            self.conn.close()
+
+        self.conn = psycopg2.connect(host='zillow-data.czredhmlhbps.us-east-1.rds.amazonaws.com',
+                                     port="5432",
+                                     user='postgres',
+                                     password='umass2020',
+                                     database='zillow_data')
+
+    def query(self, postgres_insert_query, record_to_insert):
+        try:
+            cursor = self.conn.cursor()
+            cursor.execute(postgres_insert_query, record_to_insert)
+            self.conn.commit()
+            count = cursor.rowcount
+            print(count, "Record successfully queried into zillow_data table")
+            return cursor
+
+        except (AttributeError, psycopg2.OperationalError):
+            self.connect()
+            cursor = self.conn.cursor()
+            cursor.execute(postgres_insert_query, record_to_insert)
+            self.conn.commit()
+            count = cursor.rowcount
+            print(count, "Record inserted successfully into mobile table")
+            return cursor
+
+        # finally:
+        #     if self.conn:
+        #         cursor.close()
+        #         self.conn.close()
+        #     print("PostgreSQL connection is closed")
+
+        return cursor
+
 
 api_key = "215f50cb-7886-4f70-ba0e-0d69959a789a"
+
+database = DB()
 
 # zillow search url
 listing_url = "https://www.zillow.com/homes/for_sale/?searchQueryState=%7B%22usersSearchTerm%22%3A%22Boston%2C%20MA" \
@@ -21,6 +68,8 @@ def print_hello():
 
     logger.info("Starting process...")
 
+    # database.connect()
+
     url = "https://app.scrapeak.com/v1/scrapers/zillow/listing"
 
     querystring = {
@@ -32,14 +81,68 @@ def print_hello():
     try:
         res = requests.request("GET", url, params=querystring)
         logger.info("Request status: " + str(res.json()["is_success"]))
-        logger.info("Total number of houses found in search: {total}".format(total=str(res.json()["data"]["categoryTotals"]["cat1"]["totalResultCount"])))
+        logger.info("Total number of houses found in search: {total}".format(
+            total=str(res.json()["data"]["categoryTotals"]["cat1"]["totalResultCount"])))
 
-        i = 0
         for house in res.json()["data"]["cat1"]["searchResults"]["mapResults"]:
-            print(house)
-            i += 1
-            if i == 1:
-                break;
+            if not (house.get('zpid') is None):
+                # Query databse to see if zpid exists and if not then proceed otherwise continue
+                zpid = house['zpid']
+                postgreSQL_select_Query = "select * from zillow_data where zpid=%s"
+                cursor = database.query(postgreSQL_select_Query, (int(zpid),))
+                if len(cursor.fetchall()) > 0:
+                    continue
+            else:
+                continue
 
-    except Exception:
-        logger.info("Some error occured lol.....")
+            if not (house.get('price') is None):
+                price = house['price']
+                print(price)
+                pattern = '\$.*'
+                price = re.search(pattern, price).group()
+            else:
+                continue
+                price = None
+
+            if not (house.get('area') is None):
+                area = house['area']
+            else:
+                continue
+                area = None
+
+            if not (house.get('latLong').get('latitude') is None):
+                lat = house['latLong']['latitude']
+            else:
+                lat = None
+
+            if not (house.get('latLong').get('longitude') is None):
+                long = house['latLong']['longitude']
+            else:
+                long = None
+
+            if not (house.get('statusType') is None):
+                statusType = house['statusType']
+            else:
+                statusType = None
+
+            if not (house.get('zestimate') is None):
+                zestimate = house['zestimate']
+            else:
+                zestimate = None
+
+            if not (house.get('rentZestimate') is None):
+                rentZestimate = house['rentZestimate']
+            else:
+                rentZestimate = None
+
+            if not (house.get('taxAssessedValue') is None):
+                taxAssessedValue = house['taxAssessedValue']
+            else:
+                taxAssessedValue = None
+
+            postgres_insert_query = "INSERT INTO zillow_data (zpid,price,area,lat,long,statusType,zestimate,rentZestimate,taxAssessedValue) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)"
+            record_to_insert = (zpid, price, area, lat, long, statusType, zestimate, rentZestimate, taxAssessedValue)
+            database.query(postgres_insert_query, record_to_insert)
+
+    except Exception as e:
+        logger.info("Some error occurred lol....." + str(e))
