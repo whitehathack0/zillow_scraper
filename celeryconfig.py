@@ -1,7 +1,7 @@
 from celery.schedules import crontab
 
 
-CELERY_IMPORTS = ('app.tasks.test')
+CELERY_IMPORTS = ('app.tasks.zillow_scraper')
 CELERY_TASK_RESULT_EXPIRES = 30
 CELERY_TIMEZONE = 'UTC'
 
@@ -11,8 +11,8 @@ CELERY_RESULT_SERIALIZER = 'json'
 
 CELERYBEAT_SCHEDULE = {
     'test-celery': {
-        'task': 'app.tasks.test.print_hello',
+        'task': 'app.tasks.zillow_scraper.scraper',
         # Every minute
-        'schedule': crontab(minute="*"),
+        'schedule': crontab(minute=0, hour=5, day_of_week='*', day_of_month='*', month_of_year='*'),
     }
 }
