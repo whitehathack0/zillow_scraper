@@ -1,3 +1,2 @@
-Redis: ./redis-3.2.1/src/redis-server
-Celery beat: celery beat -A app.celery --schedule=/tmp/celerybeat-schedule --loglevel=INFO --pidfile=/tmp/celerybeat.pid
-Celery Worker: celery worker -A app.celery --loglevel=INFO
+celery -A app.app.celery_app beat -l DEBUG
+celery -A app.app.celery_app worker -l DEBUG
