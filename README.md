@@ -1,5 +1,7 @@
 # Zillow Scraper
-This repo contains code for a simple zillow scraper celery task that hit zillows API and pulls new houses in Boston around certain filters. This data is then inserted in a postgres RDS dataase.
+This repo contains code for a simple zillow scraper celery task that hit zillows 
+API and pulls new houses in Boston around certain filters. This data is then inserted 
+in a postgres RDS dataase. Currently Celery task is set to run every day at 9am EST.
 
 #### How to run locally:
 - install requirements via requirements.txt
