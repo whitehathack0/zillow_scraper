@@ -30,11 +30,11 @@ def create_celery_app(app=None):
 
     celery = Celery(app.import_name)
     celery.conf.update(app.config.get("CELERY_CONFIG", {}))
-
+    celery.conf.timezone = 'America/New_York'
     celery.conf.beat_schedule = {
         'scrape-every-minute': {
             'task': 'app.tasks.scraper',
-            'schedule': crontab(minute='*', hour='*', day_of_week='*', day_of_month='*', month_of_year='*'),
+            'schedule': crontab(minute='5', hour='16', day_of_week='*', day_of_month='*', month_of_year='*'),
         },
     }
 

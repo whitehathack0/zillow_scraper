@@ -1,44 +1,29 @@
 version: '3.8'
 
 services:
-  web:
-    build:
-      context: .
-      dockerfile: ./Dockerfile
-    image: zillow_scraper
-    command: /start.sh
-    volumes:
-      - .:/app
-    ports:
-      - 5010:5000
-    depends_on:
-      - redis
-
   redis:
-    build:
-      context: .
-      dockerfile: ./Dockerfile
-    image: redis_3.2.1
-    command: /install_redis.sh
+    image: redis:6-alpine
+    ports:
+      - '6379:6379'
 
   celery_worker:
     build:
       context: .
-      dockerfile: ./Dockerfile
-    image: zillow_scraper_celery_worker
-    command: /start-celeryworker.sh
-    volumes:
-      - .:/app
+#      dockerfile: public.ecr.aws/z7z4i3p4/zillow_flask_app:latest
+    image: public.ecr.aws/z7z4i3p4/zillow_flask_app:latest
+    environment:
+      - REDIS_URL=redis://redis:6379/0
     depends_on:
       - redis
+    command: /start_celeryworker.sh
 
   celery_beat:
     build:
       context: .
-      dockerfile: ./Dockerfile
-    image: zillow_scraper_celery_beat
-    command: /start-celerybeat.sh
-    volumes:
-      - .:/app
+#      dockerfile: public.ecr.aws/z7z4i3p4/zillow_flask_app:latest
+    image: public.ecr.aws/z7z4i3p4/zillow_flask_app:latest
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+    command: /start_celerybeat.sh
     depends_on:
       - redis

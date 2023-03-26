@@ -1,2 +1,2 @@
-celery -A app.app.celery_app beat -l DEBUG
+celery -A app.app.celery_app beat -l DEBUG --max-interval 86400
 celery -A app.app.celery_app worker -l DEBUG

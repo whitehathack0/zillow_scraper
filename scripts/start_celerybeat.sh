@@ -3,4 +3,4 @@
 set -o errexit
 set -o nounset
 
-celery beat -A app.celery --schedule=/tmp/celerybeat-schedule --loglevel=INFO --pidfile=/tmp/celerybeat.pid
+celery -A app.app.celery_app beat -l DEBUG --max-interval 86400

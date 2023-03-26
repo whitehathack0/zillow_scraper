@@ -11,7 +11,6 @@ RUN apt-get update \
   # Additional dependencies
   && apt-get install -y telnet netcat \
   && apt-get -qq -y install curl \
-  && apt-get install wget -y \
   # cleaning up unused files
   && apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false \
   && rm -rf /var/lib/apt/lists/*
@@ -20,20 +19,15 @@ RUN apt-get update \
 COPY ./requirements.txt /requirements.txt
 RUN pip install -r /requirements.txt
 
-COPY ./scripts/start.sh /start.sh
-RUN sed -i 's/\r$//g' /start.sh
-RUN chmod +x /start.sh
+COPY ./app /app
+COPY ./config /config
 
-COPY ./scripts/start_celeryworker.sh /start-celeryworker.sh
-RUN sed -i 's/\r$//g' /start-celeryworker.sh
-RUN chmod +x /start-celeryworker.sh
+COPY ./scripts/start_celeryworker.sh /start_celeryworker.sh
+RUN sed -i 's/\r$//g' /start_celeryworker.sh
+RUN chmod +x /start_celeryworker.sh
 
-COPY ./scripts/start_celerybeat.sh /start-celerybeat.sh
-RUN sed -i 's/\r$//g' /start-celerybeat.sh
-RUN chmod +x /start-celerybeat.sh
+COPY ./scripts/start_celerybeat.sh /start_celerybeat.sh
+RUN sed -i 's/\r$//g' /start_celerybeat.sh
+RUN chmod +x /start_celerybeat.sh
 
-COPY ./scripts/install_redis.sh /install_redis.sh
-RUN sed -i 's/\r$//g' /install_redis.sh
-RUN chmod +x /install_redis.sh
-
-WORKDIR /app
+WORKDIR .
