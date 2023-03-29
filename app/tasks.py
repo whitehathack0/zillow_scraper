@@ -92,10 +92,20 @@ def scraper():
             else:
                 tax_assessed_value = None
 
+            if not (house.get('address') is None):
+                address = house.get('address')
+            else:
+                address = None
+
+            if not (house.get('detailUrl') is None):
+                web_link = house.get('detailUrl')
+            else:
+                web_link = None
+
             logging.info("Inserting record...")
             cursor.execute(
-                "INSERT INTO zillow_data (zpid,price,area,lat,long,statusType,zestimate,rentZestimate,taxAssessedValue) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)",
-                (zpid, price, area, lat, long, status_type, zestimate, rent_zestimate, tax_assessed_value))
+                "INSERT INTO zillow_data (zpid,price,area,lat,long,statusType,zestimate,rentZestimate,taxAssessedValue, web_link, address) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)",
+                (zpid, price, area, lat, long, status_type, zestimate, rent_zestimate, tax_assessed_value, web_link, address))
             conn.commit()
             logging.info("---")
 

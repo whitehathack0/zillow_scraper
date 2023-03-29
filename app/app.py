@@ -34,7 +34,8 @@ def create_celery_app(app=None):
     celery.conf.beat_schedule = {
         'scrape-every-minute': {
             'task': 'app.tasks.scraper',
-            'schedule': crontab(minute='5', hour='16', day_of_week='*', day_of_month='*', month_of_year='*'),
+            # 'schedule': crontab(minute='*', hour='*', day_of_week='*', day_of_month='*', month_of_year='*'),
+            'schedule': crontab(minute='0', hour='9', day_of_week='*', day_of_month='*', month_of_year='*'),
         },
     }
 
