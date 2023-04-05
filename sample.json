@@ -1,1136 +1,942 @@
-{
-    "is_success": true,
-    "data": {
-        "user": {
-            "isLoggedIn": false,
-            "email": "",
-            "displayName": "",
-            "hasHousingConnectorPermission": false,
-            "savedHomesCount": 0,
-            "personalizedSearchGaDataTag": null,
-            "personalizedSearchTraceID": "6410cfda5d99be14240932564afc5aed",
-            "guid": "01a148a4-2066-44e3-aa8b-82ffa05d3616",
-            "zuid": "",
-            "isBot": false,
-            "userSpecializedSEORegion": false
-        },
-        "mapState": {
-            "customRegionPolygonWkt": "POLYGON ((-71.07206716254588 42.36211855011039, -71.06966390326853 42.36846026816781, -71.06829061225291 42.36643098803969, -71.05970754340525 42.3654163233931, -71.0511244745576 42.36313326801868, -71.04631795600291 42.357805816170874, -71.05249776557322 42.35273163256675, -71.06108083442088 42.35222419167326, -71.06863393500682 42.355522484248624, -71.07206716254588 42.36211855011039))",
-            "schoolPolygonWkt": null,
-            "isCurrentLocationSearch": false,
-            "userPosition": {
-                "lat": null,
-                "lon": null
-            }
-        },
-        "regionState": {
-            "regionInfo": [
-                {
-                    "isPointRegion": false
-                }
-            ],
-            "regionBounds": {
-                "north": 42.36846026816781,
-                "east": -71.04965976297711,
-                "south": 42.35222419167326,
-                "west": -71.07206716254588
-            }
-        },
-        "searchPageSeoObject": {
-            "baseUrl": "/homes/for_sale/",
-            "windowTitle": "Real Estate & Homes For Sale - 10 Homes For Sale | Zillow",
-            "metaDescription": "Zillow has 10 homes for sale. View listing photos, review sales history, and use our detailed real estate filters to find the perfect place."
-        },
-        "requestId": 9,
-        "cat1": {
-            "searchResults": {
-                "listResults": [
-                    {
-                        "zpid": "81857517",
-                        "id": "81857517",
-                        "providerListingId": null,
-                        "imgSrc": "https://photos.zillowstatic.com/fp/a9d05e686b3cc32883cf2c43d98e73c6-p_e.jpg",
-                        "hasImage": true,
-                        "detailUrl": "https://www.zillow.com/homedetails/500-Atlantic-Ave-UNIT-15V-Boston-MA-02210/81857517_zpid/",
-                        "statusType": "FOR_SALE",
-                        "statusText": "Condo for sale",
-                        "countryCurrency": "$",
-                        "price": "$499,000",
-                        "unformattedPrice": 499000,
-                        "address": "500 Atlantic Ave UNIT 15V, Boston, MA 02210",
-                        "addressStreet": "500 Atlantic Ave UNIT 15V",
-                        "addressCity": "Boston",
-                        "addressState": "MA",
-                        "addressZipcode": "02210",
-                        "isUndisclosedAddress": false,
-                        "beds": 0,
-                        "baths": 1.0,
-                        "area": 426,
-                        "latLong": {
-                            "latitude": 42.35393,
-                            "longitude": -71.051994
-                        },
-                        "isZillowOwned": false,
-                        "variableData": {
-                            "type": "3D_HOME",
-                            "text": "3D Tour"
-                        },
-                        "badgeInfo": null,
-                        "hdpData": {
-                            "homeInfo": {
-                                "zpid": 81857517,
-                                "streetAddress": "500 Atlantic Ave UNIT 15V",
-                                "zipcode": "02210",
-                                "city": "Boston",
-                                "state": "MA",
-                                "latitude": 42.35393,
-                                "longitude": -71.051994,
-                                "price": 499000.0,
-                                "bathrooms": 1.0,
-                                "bedrooms": 0.0,
-                                "livingArea": 426.0,
-                                "homeType": "CONDO",
-                                "homeStatus": "FOR_SALE",
-                                "daysOnZillow": -1,
-                                "isFeatured": false,
-                                "shouldHighlight": false,
-                                "zestimate": 509235,
-                                "rentZestimate": 2670,
-                                "listing_sub_type": {
-                                    "is_FSBA": true
-                                },
-                                "isUnmappable": false,
-                                "isPreforeclosureAuction": false,
-                                "homeStatusForHDP": "FOR_SALE",
-                                "priceForHDP": 499000.0,
-                                "isNonOwnerOccupied": true,
-                                "isPremierBuilder": false,
-                                "isZillowOwned": false,
-                                "currency": "USD",
-                                "country": "USA",
-                                "taxAssessedValue": 482800.0,
-                                "unit": "Unit 15V"
-                            }
-                        },
-                        "isSaved": false,
-                        "isUserClaimingOwner": false,
-                        "isUserConfirmedClaim": false,
-                        "pgapt": "ForSale",
-                        "sgapt": "For Sale (Broker)",
-                        "zestimate": 509235,
-                        "shouldShowZestimateAsPrice": false,
-                        "has3DModel": true,
-                        "hasVideo": false,
-                        "isHomeRec": false,
-                        "brokerName": "Keller Williams Realty Boston-Metro | Back Bay",
-                        "info6String": "Jennifer Gelfand",
-                        "hasAdditionalAttributions": true,
-                        "isFeaturedListing": false,
-                        "availabilityDate": null,
-                        "list": true,
-                        "relaxed": false
-                    },
-                    {
-                        "zpid": "59163208",
-                        "id": "59163208",
-                        "providerListingId": null,
-                        "imgSrc": "https://photos.zillowstatic.com/fp/298ce3605d268586cc6235a128fb4212-p_e.jpg",
-                        "hasImage": true,
-                        "detailUrl": "https://www.zillow.com/homedetails/6-Whittier-Pl-APT-4F-Boston-MA-02114/59163208_zpid/",
-                        "statusType": "FOR_SALE",
-                        "statusText": "Condo for sale",
-                        "countryCurrency": "$",
-                        "price": "$400,000",
-                        "unformattedPrice": 400000,
-                        "address": "6 Whittier Pl APT 4F, Boston, MA 02114",
-                        "addressStreet": "6 Whittier Pl APT 4F",
-                        "addressCity": "Boston",
-                        "addressState": "MA",
-                        "addressZipcode": "02114",
-                        "isUndisclosedAddress": false,
-                        "beds": 0,
-                        "baths": 1.0,
-                        "area": 542,
-                        "latLong": {
-                            "latitude": 42.365837,
-                            "longitude": -71.06679
-                        },
-                        "isZillowOwned": false,
-                        "variableData": {
-                            "type": "DAYS_ON",
-                            "text": "52 days on Zillow"
-                        },
-                        "badgeInfo": null,
-                        "hdpData": {
-                            "homeInfo": {
-                                "zpid": 59163208,
-                                "streetAddress": "6 Whittier Pl APT 4F",
-                                "zipcode": "02114",
-                                "city": "Boston",
-                                "state": "MA",
-                                "latitude": 42.365837,
-                                "longitude": -71.06679,
-                                "price": 400000.0,
-                                "bathrooms": 1.0,
-                                "bedrooms": 0.0,
-                                "livingArea": 542.0,
-                                "homeType": "CONDO",
-                                "homeStatus": "FOR_SALE",
-                                "daysOnZillow": -1,
-                                "isFeatured": false,
-                                "shouldHighlight": false,
-                                "zestimate": 396700,
-                                "rentZestimate": 2799,
-                                "listing_sub_type": {
-                                    "is_FSBA": true
-                                },
-                                "isUnmappable": false,
-                                "isPreforeclosureAuction": false,
-                                "homeStatusForHDP": "FOR_SALE",
-                                "priceForHDP": 400000.0,
-                                "isNonOwnerOccupied": true,
-                                "isPremierBuilder": false,
-                                "isZillowOwned": false,
-                                "currency": "USD",
-                                "country": "USA",
-                                "taxAssessedValue": 369500.0,
-                                "unit": "Apt 4F"
-                            }
-                        },
-                        "isSaved": false,
-                        "isUserClaimingOwner": false,
-                        "isUserConfirmedClaim": false,
-                        "pgapt": "ForSale",
-                        "sgapt": "For Sale (Broker)",
-                        "zestimate": 396700,
-                        "shouldShowZestimateAsPrice": false,
-                        "has3DModel": false,
-                        "hasVideo": false,
-                        "isHomeRec": false,
-                        "brokerName": "Coldwell Banker Realty - Cambridge",
-                        "info6String": "Barbara Currier",
-                        "hasAdditionalAttributions": true,
-                        "isFeaturedListing": false,
-                        "availabilityDate": null,
-                        "list": true,
-                        "relaxed": false
-                    },
-                    {
-                        "zpid": "59180213",
-                        "id": "59180213",
-                        "providerListingId": null,
-                        "imgSrc": "https://photos.zillowstatic.com/fp/6197da9f7332757b78375dd6b76bef9b-p_e.jpg",
-                        "hasImage": true,
-                        "detailUrl": "https://www.zillow.com/homedetails/9-Hawthorne-Pl-APT-7F-Boston-MA-02114/59180213_zpid/",
-                        "statusType": "FOR_SALE",
-                        "statusText": "Condo for sale",
-                        "countryCurrency": "$",
-                        "price": "$429,000",
-                        "unformattedPrice": 429000,
-                        "address": "9 Hawthorne Pl APT 7F, Boston, MA 02114",
-                        "addressStreet": "9 Hawthorne Pl APT 7F",
-                        "addressCity": "Boston",
-                        "addressState": "MA",
-                        "addressZipcode": "02114",
-                        "isUndisclosedAddress": false,
-                        "beds": 0,
-                        "baths": 1.0,
-                        "area": 637,
-                        "latLong": {
-                            "latitude": 42.364014,
-                            "longitude": -71.06571
-                        },
-                        "isZillowOwned": false,
-                        "variableData": {
-                            "type": "DAYS_ON",
-                            "text": "309 days on Zillow"
-                        },
-                        "badgeInfo": null,
-                        "hdpData": {
-                            "homeInfo": {
-                                "zpid": 59180213,
-                                "streetAddress": "9 Hawthorne Pl APT 7F",
-                                "zipcode": "02114",
-                                "city": "Boston",
-                                "state": "MA",
-                                "latitude": 42.364014,
-                                "longitude": -71.06571,
-                                "price": 429000.0,
-                                "bathrooms": 1.0,
-                                "bedrooms": 0.0,
-                                "livingArea": 637.0,
-                                "homeType": "CONDO",
-                                "homeStatus": "FOR_SALE",
-                                "daysOnZillow": -1,
-                                "isFeatured": false,
-                                "shouldHighlight": false,
-                                "zestimate": 392700,
-                                "rentZestimate": 2849,
-                                "listing_sub_type": {
-                                    "is_FSBA": true
-                                },
-                                "isUnmappable": false,
-                                "isPreforeclosureAuction": false,
-                                "homeStatusForHDP": "FOR_SALE",
-                                "priceForHDP": 429000.0,
-                                "isNonOwnerOccupied": true,
-                                "isPremierBuilder": false,
-                                "isZillowOwned": false,
-                                "currency": "USD",
-                                "country": "USA",
-                                "taxAssessedValue": 397500.0,
-                                "unit": "Apt 7F"
-                            }
-                        },
-                        "isSaved": false,
-                        "isUserClaimingOwner": false,
-                        "isUserConfirmedClaim": false,
-                        "pgapt": "ForSale",
-                        "sgapt": "For Sale (Broker)",
-                        "zestimate": 392700,
-                        "shouldShowZestimateAsPrice": false,
-                        "has3DModel": false,
-                        "hasVideo": false,
-                        "isHomeRec": false,
-                        "brokerName": "Leading Edge Real Estate",
-                        "info6String": "Eric Fishman",
-                        "hasAdditionalAttributions": true,
-                        "isFeaturedListing": false,
-                        "availabilityDate": null,
-                        "list": true,
-                        "relaxed": false
-                    },
-                    {
-                        "zpid": "59180300",
-                        "id": "59180300",
-                        "providerListingId": null,
-                        "imgSrc": "https://photos.zillowstatic.com/fp/dc1c3cd029b05791aa2440a0fa45cd80-p_e.jpg",
-                        "hasImage": true,
-                        "detailUrl": "https://www.zillow.com/homedetails/9-Hawthorne-Pl-APT-12P-Boston-MA-02114/59180300_zpid/",
-                        "statusType": "FOR_SALE",
-                        "statusText": "Condo for sale",
-                        "countryCurrency": "$",
-                        "price": "$429,000",
-                        "unformattedPrice": 429000,
-                        "address": "9 Hawthorne Pl APT 12P, Boston, MA 02114",
-                        "addressStreet": "9 Hawthorne Pl APT 12P",
-                        "addressCity": "Boston",
-                        "addressState": "MA",
-                        "addressZipcode": "02114",
-                        "isUndisclosedAddress": false,
-                        "beds": 0,
-                        "baths": 1.0,
-                        "area": 546,
-                        "latLong": {
-                            "latitude": 42.364014,
-                            "longitude": -71.06571
-                        },
-                        "isZillowOwned": false,
-                        "variableData": {
-                            "type": "DAYS_ON",
-                            "text": "130 days on Zillow"
-                        },
-                        "badgeInfo": null,
-                        "hdpData": {
-                            "homeInfo": {
-                                "zpid": 59180300,
-                                "streetAddress": "9 Hawthorne Pl APT 12P",
-                                "zipcode": "02114",
-                                "city": "Boston",
-                                "state": "MA",
-                                "latitude": 42.364014,
-                                "longitude": -71.06571,
-                                "price": 429000.0,
-                                "datePriceChanged": 1666594800000,
-                                "bathrooms": 1.0,
-                                "bedrooms": 0.0,
-                                "livingArea": 546.0,
-                                "homeType": "CONDO",
-                                "homeStatus": "FOR_SALE",
-                                "daysOnZillow": -1,
-                                "isFeatured": false,
-                                "shouldHighlight": false,
-                                "zestimate": 417360,
-                                "rentZestimate": 2719,
-                                "listing_sub_type": {
-                                    "is_FSBA": true
-                                },
-                                "priceReduction": "",
-                                "isUnmappable": false,
-                                "isPreforeclosureAuction": false,
-                                "homeStatusForHDP": "FOR_SALE",
-                                "priceForHDP": 429000.0,
-                                "priceChange": -10000,
-                                "isNonOwnerOccupied": true,
-                                "isPremierBuilder": false,
-                                "isZillowOwned": false,
-                                "currency": "USD",
-                                "country": "USA",
-                                "taxAssessedValue": 397500.0,
-                                "unit": "Apt 12P"
-                            }
-                        },
-                        "isSaved": false,
-                        "isUserClaimingOwner": false,
-                        "isUserConfirmedClaim": false,
-                        "pgapt": "ForSale",
-                        "sgapt": "For Sale (Broker)",
-                        "zestimate": 417360,
-                        "shouldShowZestimateAsPrice": false,
-                        "has3DModel": false,
-                        "hasVideo": false,
-                        "isHomeRec": false,
-                        "brokerName": "Coldwell Banker Realty - Boston",
-                        "info6String": "Barbara Pirrello",
-                        "hasAdditionalAttributions": true,
-                        "isFeaturedListing": false,
-                        "availabilityDate": null,
-                        "list": true,
-                        "relaxed": false
-                    },
-                    {
-                        "zpid": "59163389",
-                        "id": "59163389",
-                        "providerListingId": null,
-                        "imgSrc": "https://photos.zillowstatic.com/fp/8c3617a1235353e44e3201636b5fad7e-p_e.jpg",
-                        "hasImage": true,
-                        "detailUrl": "https://www.zillow.com/homedetails/6-Whittier-Pl-APT-16L-Boston-MA-02114/59163389_zpid/",
-                        "statusType": "FOR_SALE",
-                        "statusText": "Condo for sale",
-                        "countryCurrency": "$",
-                        "price": "$419,000",
-                        "unformattedPrice": 419000,
-                        "address": "6 Whittier Pl APT 16L, Boston, MA 02114",
-                        "addressStreet": "6 Whittier Pl APT 16L",
-                        "addressCity": "Boston",
-                        "addressState": "MA",
-                        "addressZipcode": "02114",
-                        "isUndisclosedAddress": false,
-                        "beds": 0,
-                        "baths": 1.0,
-                        "area": 542,
-                        "latLong": {
-                            "latitude": 42.365837,
-                            "longitude": -71.06679
-                        },
-                        "isZillowOwned": false,
-                        "variableData": {
-                            "type": "DAYS_ON",
-                            "text": "368 days on Zillow"
-                        },
-                        "badgeInfo": null,
-                        "hdpData": {
-                            "homeInfo": {
-                                "zpid": 59163389,
-                                "streetAddress": "6 Whittier Pl APT 16L",
-                                "zipcode": "02114",
-                                "city": "Boston",
-                                "state": "MA",
-                                "latitude": 42.365837,
-                                "longitude": -71.06679,
-                                "price": 419000.0,
-                                "datePriceChanged": 1651302000000,
-                                "bathrooms": 1.0,
-                                "bedrooms": 0.0,
-                                "livingArea": 542.0,
-                                "homeType": "CONDO",
-                                "homeStatus": "FOR_SALE",
-                                "daysOnZillow": -1,
-                                "isFeatured": false,
-                                "shouldHighlight": false,
-                                "rentZestimate": 2400,
-                                "listing_sub_type": {
-                                    "is_FSBA": true
-                                },
-                                "priceReduction": "",
-                                "isUnmappable": false,
-                                "isPreforeclosureAuction": false,
-                                "homeStatusForHDP": "FOR_SALE",
-                                "priceForHDP": 419000.0,
-                                "priceChange": -10000,
-                                "isNonOwnerOccupied": true,
-                                "isPremierBuilder": false,
-                                "isZillowOwned": false,
-                                "currency": "USD",
-                                "country": "USA",
-                                "taxAssessedValue": 399800.0,
-                                "unit": "Apt 16L",
-                                "lotAreaValue": 542.0,
-                                "lotAreaUnit": "sqft"
-                            }
-                        },
-                        "isSaved": false,
-                        "isUserClaimingOwner": false,
-                        "isUserConfirmedClaim": false,
-                        "pgapt": "ForSale",
-                        "sgapt": "For Sale (Broker)",
-                        "zestimate": null,
-                        "shouldShowZestimateAsPrice": false,
-                        "has3DModel": false,
-                        "hasVideo": false,
-                        "isHomeRec": false,
-                        "brokerName": "Engel & Volkers Boston",
-                        "info6String": "Jayne Kramer",
-                        "hasAdditionalAttributions": true,
-                        "isFeaturedListing": false,
-                        "availabilityDate": null,
-                        "list": true,
-                        "relaxed": false
-                    },
-                    {
-                        "zpid": "59163178",
-                        "id": "59163178",
-                        "providerListingId": null,
-                        "imgSrc": "https://photos.zillowstatic.com/fp/5f8eddce42fd39b2cf91a9a8da039ebf-p_e.jpg",
-                        "hasImage": true,
-                        "detailUrl": "https://www.zillow.com/homedetails/6-Whittier-Pl-APT-2G-Boston-MA-02114/59163178_zpid/",
-                        "statusType": "FOR_SALE",
-                        "statusText": "Condo for sale",
-                        "countryCurrency": "$",
-                        "price": "$446,000",
-                        "unformattedPrice": 446000,
-                        "address": "6 Whittier Pl APT 2G, Boston, MA 02114",
-                        "addressStreet": "6 Whittier Pl APT 2G",
-                        "addressCity": "Boston",
-                        "addressState": "MA",
-                        "addressZipcode": "02114",
-                        "isUndisclosedAddress": false,
-                        "beds": 0,
-                        "baths": 1.0,
-                        "area": 637,
-                        "latLong": {
-                            "latitude": 42.365837,
-                            "longitude": -71.06679
-                        },
-                        "isZillowOwned": false,
-                        "variableData": {
-                            "type": "DAYS_ON",
-                            "text": "141 days on Zillow"
-                        },
-                        "badgeInfo": null,
-                        "hdpData": {
-                            "homeInfo": {
-                                "zpid": 59163178,
-                                "streetAddress": "6 Whittier Pl APT 2G",
-                                "zipcode": "02114",
-                                "city": "Boston",
-                                "state": "MA",
-                                "latitude": 42.365837,
-                                "longitude": -71.06679,
-                                "price": 446000.0,
-                                "datePriceChanged": 1678608000000,
-                                "bathrooms": 1.0,
-                                "bedrooms": 0.0,
-                                "livingArea": 637.0,
-                                "homeType": "CONDO",
-                                "homeStatus": "FOR_SALE",
-                                "daysOnZillow": -1,
-                                "isFeatured": false,
-                                "shouldHighlight": false,
-                                "zestimate": 430950,
-                                "rentZestimate": 2849,
-                                "listing_sub_type": {
-                                    "is_FSBA": true
-                                },
-                                "isUnmappable": false,
-                                "isPreforeclosureAuction": false,
-                                "homeStatusForHDP": "FOR_SALE",
-                                "priceForHDP": 446000.0,
-                                "priceChange": 7000,
-                                "isNonOwnerOccupied": true,
-                                "isPremierBuilder": false,
-                                "isZillowOwned": false,
-                                "currency": "USD",
-                                "country": "USA",
-                                "taxAssessedValue": 366500.0,
-                                "unit": "Apt 2G"
-                            }
-                        },
-                        "isSaved": false,
-                        "isUserClaimingOwner": false,
-                        "isUserConfirmedClaim": false,
-                        "pgapt": "ForSale",
-                        "sgapt": "For Sale (Broker)",
-                        "zestimate": 430950,
-                        "shouldShowZestimateAsPrice": false,
-                        "has3DModel": false,
-                        "hasVideo": false,
-                        "isHomeRec": false,
-                        "brokerName": "www.HomeZu.com",
-                        "info6String": "Jason Saphire",
-                        "hasAdditionalAttributions": true,
-                        "isFeaturedListing": false,
-                        "availabilityDate": null,
-                        "list": true,
-                        "relaxed": false
-                    },
-                    {
-                        "zpid": "59163427",
-                        "id": "59163427",
-                        "providerListingId": null,
-                        "imgSrc": "https://photos.zillowstatic.com/fp/ea872267279a315931c5dbf885ab5c30-p_e.jpg",
-                        "hasImage": true,
-                        "detailUrl": "https://www.zillow.com/homedetails/8-Whittier-Pl-APT-3G-Boston-MA-02114/59163427_zpid/",
-                        "statusType": "FOR_SALE",
-                        "statusText": "Condo for sale",
-                        "countryCurrency": "$",
-                        "price": "$429,000",
-                        "unformattedPrice": 429000,
-                        "address": "8 Whittier Pl APT 3G, Boston, MA 02114",
-                        "addressStreet": "8 Whittier Pl APT 3G",
-                        "addressCity": "Boston",
-                        "addressState": "MA",
-                        "addressZipcode": "02114",
-                        "isUndisclosedAddress": false,
-                        "beds": 0,
-                        "baths": 1.0,
-                        "area": 682,
-                        "latLong": {
-                            "latitude": 42.365704,
-                            "longitude": -71.06735
-                        },
-                        "isZillowOwned": false,
-                        "variableData": {
-                            "type": "PRICE_REDUCTION",
-                            "text": "$10,000 (Feb 24)"
-                        },
-                        "badgeInfo": null,
-                        "hdpData": {
-                            "homeInfo": {
-                                "zpid": 59163427,
-                                "streetAddress": "8 Whittier Pl APT 3G",
-                                "zipcode": "02114",
-                                "city": "Boston",
-                                "state": "MA",
-                                "latitude": 42.365704,
-                                "longitude": -71.06735,
-                                "price": 429000.0,
-                                "datePriceChanged": 1677225600000,
-                                "bathrooms": 1.0,
-                                "bedrooms": 0.0,
-                                "livingArea": 682.0,
-                                "homeType": "CONDO",
-                                "homeStatus": "FOR_SALE",
-                                "daysOnZillow": -1,
-                                "isFeatured": false,
-                                "shouldHighlight": false,
-                                "zestimate": 417427,
-                                "rentZestimate": 2499,
-                                "listing_sub_type": {
-                                    "is_FSBA": true
-                                },
-                                "priceReduction": "$10,000 (Feb 24)",
-                                "isUnmappable": false,
-                                "isPreforeclosureAuction": false,
-                                "homeStatusForHDP": "FOR_SALE",
-                                "priceForHDP": 429000.0,
-                                "priceChange": -10000,
-                                "isNonOwnerOccupied": true,
-                                "isPremierBuilder": false,
-                                "isZillowOwned": false,
-                                "currency": "USD",
-                                "country": "USA",
-                                "taxAssessedValue": 377500.0,
-                                "unit": "Apt 3G"
-                            }
-                        },
-                        "isSaved": false,
-                        "isUserClaimingOwner": false,
-                        "isUserConfirmedClaim": false,
-                        "pgapt": "ForSale",
-                        "sgapt": "For Sale (Broker)",
-                        "zestimate": 417427,
-                        "shouldShowZestimateAsPrice": false,
-                        "has3DModel": false,
-                        "hasVideo": false,
-                        "isHomeRec": false,
-                        "brokerName": "IRB Real Estate",
-                        "info6String": "Thomas Johnson",
-                        "hasAdditionalAttributions": true,
-                        "isFeaturedListing": false,
-                        "availabilityDate": null,
-                        "list": true,
-                        "relaxed": false
-                    },
-                    {
-                        "zpid": "59163497",
-                        "id": "59163497",
-                        "providerListingId": null,
-                        "imgSrc": "https://photos.zillowstatic.com/fp/76e66ce166c0eb4a943978430c2d5834-p_e.jpg",
-                        "hasImage": true,
-                        "detailUrl": "https://www.zillow.com/homedetails/8-Whittier-Pl-APT-10G-Boston-MA-02114/59163497_zpid/",
-                        "statusType": "FOR_SALE",
-                        "statusText": "Condo for sale",
-                        "countryCurrency": "$",
-                        "price": "$479,000",
-                        "unformattedPrice": 479000,
-                        "address": "8 Whittier Pl APT 10G, Boston, MA 02114",
-                        "addressStreet": "8 Whittier Pl APT 10G",
-                        "addressCity": "Boston",
-                        "addressState": "MA",
-                        "addressZipcode": "02114",
-                        "isUndisclosedAddress": false,
-                        "beds": 0,
-                        "baths": 1.0,
-                        "area": 691,
-                        "latLong": {
-                            "latitude": 42.365704,
-                            "longitude": -71.06735
-                        },
-                        "isZillowOwned": false,
-                        "variableData": {
-                            "type": "DAYS_ON",
-                            "text": "7 days on Zillow"
-                        },
-                        "badgeInfo": null,
-                        "hdpData": {
-                            "homeInfo": {
-                                "zpid": 59163497,
-                                "streetAddress": "8 Whittier Pl APT 10G",
-                                "zipcode": "02114",
-                                "city": "Boston",
-                                "state": "MA",
-                                "latitude": 42.365704,
-                                "longitude": -71.06735,
-                                "price": 479000.0,
-                                "bathrooms": 1.0,
-                                "bedrooms": 0.0,
-                                "livingArea": 691.0,
-                                "homeType": "CONDO",
-                                "homeStatus": "FOR_SALE",
-                                "daysOnZillow": -1,
-                                "isFeatured": false,
-                                "shouldHighlight": false,
-                                "zestimate": 479000,
-                                "rentZestimate": 2849,
-                                "listing_sub_type": {
-                                    "is_FSBA": true
-                                },
-                                "isUnmappable": false,
-                                "isPreforeclosureAuction": false,
-                                "homeStatusForHDP": "FOR_SALE",
-                                "priceForHDP": 479000.0,
-                                "isNonOwnerOccupied": true,
-                                "isPremierBuilder": false,
-                                "isZillowOwned": false,
-                                "currency": "USD",
-                                "country": "USA",
-                                "taxAssessedValue": 412400.0,
-                                "unit": "Apt 10G",
-                                "lotAreaValue": 9999.0,
-                                "lotAreaUnit": "sqft"
-                            }
-                        },
-                        "isSaved": false,
-                        "isUserClaimingOwner": false,
-                        "isUserConfirmedClaim": false,
-                        "pgapt": "ForSale",
-                        "sgapt": "For Sale (Broker)",
-                        "zestimate": 479000,
-                        "shouldShowZestimateAsPrice": false,
-                        "has3DModel": false,
-                        "hasVideo": false,
-                        "isHomeRec": false,
-                        "brokerName": "Compass",
-                        "info6String": "Amy Goldberg",
-                        "hasAdditionalAttributions": true,
-                        "isFeaturedListing": false,
-                        "availabilityDate": null,
-                        "list": true,
-                        "relaxed": false
-                    },
-                    {
-                        "zpid": "59163388",
-                        "id": "59163388",
-                        "providerListingId": null,
-                        "imgSrc": "https://photos.zillowstatic.com/fp/d2d21f69bd71cdb822aeb86bac26e3ea-p_e.jpg",
-                        "hasImage": true,
-                        "detailUrl": "https://www.zillow.com/homedetails/6-Whittier-Pl-APT-16K-Boston-MA-02114/59163388_zpid/",
-                        "statusType": "FOR_SALE",
-                        "statusText": "Condo for sale",
-                        "countryCurrency": "$",
-                        "price": "$429,000",
-                        "unformattedPrice": 429000,
-                        "address": "6 Whittier Pl APT 16K, Boston, MA 02114",
-                        "addressStreet": "6 Whittier Pl APT 16K",
-                        "addressCity": "Boston",
-                        "addressState": "MA",
-                        "addressZipcode": "02114",
-                        "isUndisclosedAddress": false,
-                        "beds": 0,
-                        "baths": 1.0,
-                        "area": 634,
-                        "latLong": {
-                            "latitude": 42.365837,
-                            "longitude": -71.06679
-                        },
-                        "isZillowOwned": false,
-                        "variableData": {
-                            "type": "PRICE_REDUCTION",
-                            "text": "$10,000 (Feb 24)"
-                        },
-                        "badgeInfo": null,
-                        "hdpData": {
-                            "homeInfo": {
-                                "zpid": 59163388,
-                                "streetAddress": "6 Whittier Pl APT 16K",
-                                "zipcode": "02114",
-                                "city": "Boston",
-                                "state": "MA",
-                                "latitude": 42.365837,
-                                "longitude": -71.06679,
-                                "price": 429000.0,
-                                "datePriceChanged": 1677225600000,
-                                "bathrooms": 1.0,
-                                "bedrooms": 0.0,
-                                "livingArea": 634.0,
-                                "homeType": "CONDO",
-                                "homeStatus": "FOR_SALE",
-                                "daysOnZillow": -1,
-                                "isFeatured": false,
-                                "shouldHighlight": false,
-                                "zestimate": 417029,
-                                "rentZestimate": 2400,
-                                "listing_sub_type": {
-                                    "is_FSBA": true
-                                },
-                                "priceReduction": "$10,000 (Feb 24)",
-                                "isUnmappable": false,
-                                "isPreforeclosureAuction": false,
-                                "homeStatusForHDP": "FOR_SALE",
-                                "priceForHDP": 429000.0,
-                                "priceChange": -10000,
-                                "isNonOwnerOccupied": true,
-                                "isPremierBuilder": false,
-                                "isZillowOwned": false,
-                                "currency": "USD",
-                                "country": "USA",
-                                "taxAssessedValue": 427400.0,
-                                "unit": "Apt 16K"
-                            }
-                        },
-                        "isSaved": false,
-                        "isUserClaimingOwner": false,
-                        "isUserConfirmedClaim": false,
-                        "pgapt": "ForSale",
-                        "sgapt": "For Sale (Broker)",
-                        "zestimate": 417029,
-                        "shouldShowZestimateAsPrice": false,
-                        "has3DModel": false,
-                        "hasVideo": false,
-                        "isHomeRec": false,
-                        "brokerName": "IRB Real Estate",
-                        "info6String": "Thomas Johnson",
-                        "hasAdditionalAttributions": true,
-                        "isFeaturedListing": false,
-                        "availabilityDate": null,
-                        "list": true,
-                        "relaxed": false
-                    },
-                    {
-                        "zpid": "59163567",
-                        "id": "59163567",
-                        "providerListingId": null,
-                        "imgSrc": "https://photos.zillowstatic.com/fp/042de646874a63edbc9a04c013c5f2dd-p_e.jpg",
-                        "hasImage": true,
-                        "detailUrl": "https://www.zillow.com/homedetails/8-Whittier-Pl-APT-18G-Boston-MA-02114/59163567_zpid/",
-                        "statusType": "FOR_SALE",
-                        "statusText": "Condo for sale",
-                        "countryCurrency": "$",
-                        "price": "$429,000",
-                        "unformattedPrice": 429000,
-                        "address": "8 Whittier Pl APT 18G, Boston, MA 02114",
-                        "addressStreet": "8 Whittier Pl APT 18G",
-                        "addressCity": "Boston",
-                        "addressState": "MA",
-                        "addressZipcode": "02114",
-                        "isUndisclosedAddress": false,
-                        "beds": 0,
-                        "baths": 1.0,
-                        "area": 681,
-                        "latLong": {
-                            "latitude": 42.365704,
-                            "longitude": -71.06735
-                        },
-                        "isZillowOwned": false,
-                        "variableData": {
-                            "type": "PRICE_REDUCTION",
-                            "text": "$10,000 (Feb 24)"
-                        },
-                        "badgeInfo": null,
-                        "hdpData": {
-                            "homeInfo": {
-                                "zpid": 59163567,
-                                "streetAddress": "8 Whittier Pl APT 18G",
-                                "zipcode": "02114",
-                                "city": "Boston",
-                                "state": "MA",
-                                "latitude": 42.365704,
-                                "longitude": -71.06735,
-                                "price": 429000.0,
-                                "datePriceChanged": 1677225600000,
-                                "bathrooms": 1.0,
-                                "bedrooms": 0.0,
-                                "livingArea": 681.0,
-                                "homeType": "CONDO",
-                                "homeStatus": "FOR_SALE",
-                                "daysOnZillow": -1,
-                                "isFeatured": false,
-                                "shouldHighlight": false,
-                                "zestimate": 417500,
-                                "rentZestimate": 2400,
-                                "listing_sub_type": {
-                                    "is_FSBA": true
-                                },
-                                "priceReduction": "$10,000 (Feb 24)",
-                                "isUnmappable": false,
-                                "isPreforeclosureAuction": false,
-                                "homeStatusForHDP": "FOR_SALE",
-                                "priceForHDP": 429000.0,
-                                "priceChange": -10000,
-                                "isNonOwnerOccupied": true,
-                                "isPremierBuilder": false,
-                                "isZillowOwned": false,
-                                "currency": "USD",
-                                "country": "USA",
-                                "taxAssessedValue": 403500.0,
-                                "unit": "Apt 18G"
-                            }
-                        },
-                        "isSaved": false,
-                        "isUserClaimingOwner": false,
-                        "isUserConfirmedClaim": false,
-                        "pgapt": "ForSale",
-                        "sgapt": "For Sale (Broker)",
-                        "zestimate": 417500,
-                        "shouldShowZestimateAsPrice": false,
-                        "has3DModel": false,
-                        "hasVideo": false,
-                        "isHomeRec": false,
-                        "brokerName": "IRB Real Estate",
-                        "info6String": "Thomas Johnson",
-                        "hasAdditionalAttributions": true,
-                        "isFeaturedListing": false,
-                        "availabilityDate": null,
-                        "list": true,
-                        "relaxed": false
-                    }
-                ],
-                "resultsHash": "10e4fc90",
-                "homeRecCount": 0,
-                "showForYouCount": 0,
-                "mapResults": [
-                    {
-                        "zpid": "81857517",
-                        "price": "$499,000",
-                        "priceLabel": "$499K",
-                        "beds": 0,
-                        "baths": 1.0,
-                        "area": 426,
-                        "latLong": {
-                            "latitude": 42.35393,
-                            "longitude": -71.051994
-                        },
-                        "statusType": "FOR_SALE",
-                        "statusText": "Condo for sale",
-                        "isFavorite": false,
-                        "isUserClaimingOwner": false,
-                        "isUserConfirmedClaim": false,
-                        "imgSrc": "https://photos.zillowstatic.com/fp/a9d05e686b3cc32883cf2c43d98e73c6-p_e.jpg",
-                        "hasImage": true,
-                        "visited": false,
-                        "listingType": "",
-                        "variableData": {
-                            "type": "3D_HOME",
-                            "text": "3D Tour"
-                        },
-                        "hdpData": {
-                            "homeInfo": {
-                                "zpid": 81857517,
-                                "zipcode": "02210",
-                                "city": "Boston",
-                                "state": "MA",
-                                "latitude": 42.35393,
-                                "longitude": -71.051994,
-                                "price": 499000.0,
-                                "bathrooms": 1.0,
-                                "bedrooms": 0.0,
-                                "livingArea": 426.0,
-                                "homeType": "CONDO",
-                                "homeStatus": "FOR_SALE",
-                                "daysOnZillow": -1,
-                                "isFeatured": false,
-                                "shouldHighlight": false,
-                                "zestimate": 509235,
-                                "rentZestimate": 2670,
-                                "listing_sub_type": {
-                                    "is_FSBA": true
-                                },
-                                "isUnmappable": false,
-                                "isPreforeclosureAuction": false,
-                                "homeStatusForHDP": "FOR_SALE",
-                                "priceForHDP": 499000.0,
-                                "isNonOwnerOccupied": true,
-                                "isPremierBuilder": false,
-                                "isZillowOwned": false,
-                                "currency": "USD",
-                                "country": "USA",
-                                "taxAssessedValue": 482800.0,
-                                "unit": "Unit 15V"
-                            }
-                        },
-                        "shouldShowZestimateAsPrice": false,
-                        "detailUrl": "/homedetails/500-Atlantic-Ave-UNIT-15V-Boston-MA-02210/81857517_zpid/",
-                        "pgapt": "ForSale",
-                        "sgapt": "For Sale (Broker)",
-                        "has3DModel": true,
-                        "hasVideo": false,
-                        "isHomeRec": false,
-                        "address": "--",
-                        "hasAdditionalAttributions": false,
-                        "isFeaturedListing": false,
-                        "availabilityDate": null,
-                        "timeOnZillow": 2974724484
-                    },
-                    {
-                        "buildingId": "42.365837--71.06679",
-                        "lotId": 1001445248,
-                        "price": "From $400,000",
-                        "latLong": {
-                            "latitude": 42.365837,
-                            "longitude": -71.06679
-                        },
-                        "minBeds": 0,
-                        "minBaths": 1.0,
-                        "minArea": 542,
-                        "imgSrc": "https://photos.zillowstatic.com/fp/298ce3605d268586cc6235a128fb4212-p_e.jpg",
-                        "hasImage": true,
-                        "isFeaturedListing": false,
-                        "unitCount": 4,
-                        "isHomeRec": false,
-                        "buildingName": "Whittier Place Condominium",
-                        "isBuilding": true,
-                        "address": "6 Whittier Pl, Boston, MA",
-                        "variableData": {},
-                        "badgeInfo": null,
-                        "statusType": "FOR_SALE",
-                        "statusText": "Whittier Place Condominium",
-                        "listingType": "",
-                        "isFavorite": false,
-                        "detailUrl": "/b/6-whittier-pl-boston-ma-5Xj958/",
-                        "has3DModel": false,
-                        "hasAdditionalAttributions": false,
-                        "canSaveBuilding": false,
-                        "timeOnZillow": 4552998594
-                    },
-                    {
-                        "buildingId": "42.364014--71.06571",
-                        "lotId": 1001446069,
-                        "price": "From $429,000",
-                        "latLong": {
-                            "latitude": 42.364014,
-                            "longitude": -71.06571
-                        },
-                        "minBeds": 0,
-                        "minBaths": 1.0,
-                        "minArea": 546,
-                        "imgSrc": "https://photos.zillowstatic.com/fp/6197da9f7332757b78375dd6b76bef9b-p_e.jpg",
-                        "hasImage": true,
-                        "isFeaturedListing": false,
-                        "unitCount": 2,
-                        "isHomeRec": false,
-                        "buildingName": "Hawthorne Place Condominium",
-                        "isBuilding": true,
-                        "address": "9 Hawthorne Pl, Boston, MA",
-                        "variableData": {
-                            "type": "3D_HOME",
-                            "text": "3D Tour"
-                        },
-                        "badgeInfo": null,
-                        "statusType": "FOR_SALE",
-                        "statusText": "Hawthorne Place Condominium",
-                        "listingType": "",
-                        "isFavorite": false,
-                        "detailUrl": "/b/hawthorne-place-condominium-boston-ma-5Xj9Pt/",
-                        "has3DModel": true,
-                        "hasAdditionalAttributions": false,
-                        "canSaveBuilding": false,
-                        "timeOnZillow": 11315441080
-                    },
-                    {
-                        "buildingId": "42.365704--71.06735",
-                        "lotId": 1001441819,
-                        "price": "From $429,000",
-                        "latLong": {
-                            "latitude": 42.365704,
-                            "longitude": -71.06735
-                        },
-                        "minBeds": 0,
-                        "minBaths": 1.0,
-                        "minArea": 681,
-                        "imgSrc": "https://photos.zillowstatic.com/fp/ea872267279a315931c5dbf885ab5c30-p_e.jpg",
-                        "hasImage": true,
-                        "isFeaturedListing": false,
-                        "unitCount": 3,
-                        "isHomeRec": false,
-                        "buildingName": "Charles River Park",
-                        "isBuilding": true,
-                        "address": "8 Whittier Pl, Boston, MA",
-                        "variableData": {
-                            "type": "3D_HOME",
-                            "text": "3D Tour"
-                        },
-                        "badgeInfo": null,
-                        "statusType": "FOR_SALE",
-                        "statusText": "Charles River Park",
-                        "listingType": "",
-                        "isFavorite": false,
-                        "detailUrl": "/b/8-whittier-pl-boston-ma-5Xj7d9/",
-                        "has3DModel": true,
-                        "hasAdditionalAttributions": false,
-                        "canSaveBuilding": false,
-                        "timeOnZillow": 688239844
-                    }
-                ],
-                "relaxedResults": [],
-                "relaxedResultsHash": "1"
+[
+    {
+        "bounds": {
+            "northeast": {
+                "lat": 42.36314,
+                "lng": -71.05747029999999
             },
-            "searchList": {
-                "expansionDistance": 0,
-                "zeroResultsFilters": null,
-                "message": null,
-                "adsConfig": {
-                    "navAdSlot": "",
-                    "displayAdSlot": "",
-                    "targets": {},
-                    "needsUpdate": false
+            "southwest": {
+                "lat": 42.1202664,
+                "lng": -71.4002628
+            }
+        },
+        "copyrights": "Map data \u00a92023 Google",
+        "legs": [
+            {
+                "arrival_time": {
+                    "text": "7:33\u202fAM",
+                    "time_zone": "America/New_York",
+                    "value": 1680694431
                 },
-                "totalResultCount": 10,
-                "resultsPerPage": 40,
-                "totalPages": 1,
-                "displayResultsCount": 4,
-                "listResultsTitle": "Real Estate & Homes For Sale",
-                "resultContexts": [
+                "departure_time": {
+                    "text": "5:21\u202fAM",
+                    "time_zone": "America/New_York",
+                    "value": 1680686486
+                },
+                "distance": {
+                    "text": "30.6 mi",
+                    "value": 49270
+                },
+                "duration": {
+                    "text": "2 hours 12 mins",
+                    "value": 7945
+                },
+                "end_address": "Government Center, Boston, MA, USA",
+                "end_location": {
+                    "lat": 42.3609433,
+                    "lng": -71.0594296
+                },
+                "start_address": "92 Brandywine Rd, Franklin, MA 02038, USA",
+                "start_location": {
+                    "lat": 42.1272196,
+                    "lng": -71.38666169999999
+                },
+                "steps": [
                     {
-                        "ssid": 12,
-                        "context": "",
-                        "contextImage": null
+                        "distance": {
+                            "text": "1.8 mi",
+                            "value": 2841
+                        },
+                        "duration": {
+                            "text": "36 mins",
+                            "value": 2130
+                        },
+                        "end_location": {
+                            "lat": 42.1401437,
+                            "lng": -71.3974012
+                        },
+                        "html_instructions": "Walk to Village Street Post Office",
+                        "polyline": {
+                            "points": "c~b`GruurLk@Nw@R]J?TAr@?@@b@?HBZHdBF|@LhC@DJ~ADn@@VPnC@TBl@?h@At@?Z@b@Dz@Bn@F~AF~ALpCPtEBHDF@@DBJBl@?rBBtBF{BlHQh@cAjDIVEPI^Mz@AJEb@AJ?RyAVc@FiBZa@HOBSDYDI@iBV}ATo@FgAJiCZiAJaBNI@iBPgAHc@BG?e@@[A[CYCe@Eq@MGCuBi@wC{@YKmA[s@Qs@MMC{AYiB_@q@Me@O[QSOWSGG?AIIEGGGGGk@s@GG[_@MOe@k@IKc@]eA]UEWEe@CE~@"
+                        },
+                        "start_location": {
+                            "lat": 42.1272196,
+                            "lng": -71.38666169999999
+                        },
+                        "steps": [
+                            {
+                                "distance": {
+                                    "text": "246 ft",
+                                    "value": 75
+                                },
+                                "duration": {
+                                    "text": "1 min",
+                                    "value": 60
+                                },
+                                "end_location": {
+                                    "lat": 42.1278669,
+                                    "lng": -71.3868961
+                                },
+                                "html_instructions": "Head <b>north</b> on <b>Brandywine Rd</b> toward <b>Charles Dr</b>",
+                                "polyline": {
+                                    "points": "c~b`GruurLk@Nw@R]J"
+                                },
+                                "start_location": {
+                                    "lat": 42.1272196,
+                                    "lng": -71.38666169999999
+                                },
+                                "travel_mode": "WALKING"
+                            },
+                            {
+                                "distance": {
+                                    "text": "0.5 mi",
+                                    "value": 867
+                                },
+                                "duration": {
+                                    "text": "11 mins",
+                                    "value": 680
+                                },
+                                "end_location": {
+                                    "lat": 42.1256185,
+                                    "lng": -71.39538590000001
+                                },
+                                "html_instructions": "Turn <b>left</b> onto <b>Charles Dr</b>",
+                                "maneuver": "turn-left",
+                                "polyline": {
+                                    "points": "ebc`GbwurL?TAr@?@@b@?HBZHdBF|@LhC@DJ~ADn@@VPnC@TBl@?h@At@?Z@b@Dz@Bn@F~AF~ALpCPtEBHDF@@DBJBl@?rBBtBF"
+                                },
+                                "start_location": {
+                                    "lat": 42.1278669,
+                                    "lng": -71.3868961
+                                },
+                                "travel_mode": "WALKING"
+                            },
+                            {
+                                "distance": {
+                                    "text": "0.2 mi",
+                                    "value": 332
+                                },
+                                "duration": {
+                                    "text": "4 mins",
+                                    "value": 237
+                                },
+                                "end_location": {
+                                    "lat": 42.1269233,
+                                    "lng": -71.3990377
+                                },
+                                "html_instructions": "Turn <b>right</b> onto <b>Skyline Dr</b>",
+                                "maneuver": "turn-right",
+                                "polyline": {
+                                    "points": "ctb`GdlwrL{BlHQh@cAjDIVEPI^Mz@AJEb@AJ?R"
+                                },
+                                "start_location": {
+                                    "lat": 42.1256185,
+                                    "lng": -71.39538590000001
+                                },
+                                "travel_mode": "WALKING"
+                            },
+                            {
+                                "distance": {
+                                    "text": "0.8 mi",
+                                    "value": 1314
+                                },
+                                "duration": {
+                                    "text": "16 mins",
+                                    "value": 949
+                                },
+                                "end_location": {
+                                    "lat": 42.13845300000001,
+                                    "lng": -71.39827509999999
+                                },
+                                "html_instructions": "Turn <b>right</b> onto <b>Lincoln St</b>",
+                                "maneuver": "turn-right",
+                                "polyline": {
+                                    "points": "g|b`G~bxrLyAVc@FiBZa@HOBSDYDI@iBV}ATo@FgAJiCZiAJaBNI@iBPgAHc@BG?e@@[A[CYCe@Eq@MGCuBi@wC{@YKmA[s@Qs@MMC{AYiB_@q@Me@O[QSOWSGG?AIIEGGGGG"
+                                },
+                                "start_location": {
+                                    "lat": 42.1269233,
+                                    "lng": -71.3990377
+                                },
+                                "travel_mode": "WALKING"
+                            },
+                            {
+                                "distance": {
+                                    "text": "0.1 mi",
+                                    "value": 222
+                                },
+                                "duration": {
+                                    "text": "3 mins",
+                                    "value": 177
+                                },
+                                "end_location": {
+                                    "lat": 42.140113,
+                                    "lng": -71.39707779999999
+                                },
+                                "html_instructions": "Continue onto <b>Sanford St</b>",
+                                "polyline": {
+                                    "points": "ide`Gf~wrLk@s@GG[_@MOe@k@IKc@]eA]UEWEe@C"
+                                },
+                                "start_location": {
+                                    "lat": 42.13845300000001,
+                                    "lng": -71.39827509999999
+                                },
+                                "travel_mode": "WALKING"
+                            },
+                            {
+                                "distance": {
+                                    "text": "102 ft",
+                                    "value": 31
+                                },
+                                "duration": {
+                                    "text": "1 min",
+                                    "value": 27
+                                },
+                                "end_location": {
+                                    "lat": 42.1401437,
+                                    "lng": -71.3974012
+                                },
+                                "html_instructions": "Turn <b>left</b> onto <b>Village St</b>",
+                                "maneuver": "turn-left",
+                                "polyline": {
+                                    "points": "une`GvvwrLE~@"
+                                },
+                                "start_location": {
+                                    "lat": 42.140113,
+                                    "lng": -71.39707779999999
+                                },
+                                "travel_mode": "WALKING"
+                            }
+                        ],
+                        "travel_mode": "WALKING"
+                    },
+                    {
+                        "distance": {
+                            "text": "5.0 mi",
+                            "value": 8005
+                        },
+                        "duration": {
+                            "text": "11 mins",
+                            "value": 660
+                        },
+                        "end_location": {
+                            "lat": 42.1204033,
+                            "lng": -71.3255794
+                        },
+                        "html_instructions": "Bus towards Norfolk MBTA Station",
+                        "polyline": {
+                            "points": "mne`GxxwrLUCFgA?iBBeA?[?k@?a@CaA[iCOoAS}AIy@Go@EiAK{BIcCEsAQsDIgCCcA?w@?UBw@JeAPeA\\mAZs@b@w@BEl@u@|DqEf@o@FIRc@J[JYLk@Ha@D[Hw@@i@H_C?Q@aA?sAA_@AKASC[CWKy@g@mB_@mASu@AGo@kCe@uB]wAS}@Kc@Io@Gg@Ei@Gq@GcAGk@Go@Ei@Gc@Ie@Mg@IYMe@[}@e@iASg@iAeC]y@o@uAk@sAe@mAcAeDMa@g@{Ay@qBk@sA]cAAASs@K[U_AG[i@eCq@{CGUAG_@sAOo@]mAAEM]So@a@mAACg@}AEKq@qBQi@[}@aAoCe@qASk@g@oAk@qALqABYBUL_BHeABWJ_AD]Jy@Dc@Dm@?AJm@`Ac@`@QPIj@_@@Al@g@MaAIkA?AIwAMuCC]EaAAMEa@AMKy@QaAGa@AKEi@Ak@?K@o@Dc@Fg@T}AZkBZiBF]Ho@@KRoAJw@B_@lBy@lAi@jAe@n@Q`@EXCb@C`C@@?j@?^A`@EREVG\\MVKPINKJGPOLKNMJO^c@d@k@BEX]VUNQNMh@g@j@e@nAaALMPOt@q@NQJKV_@NUDG~@_BNq@HYNm@BQFWHk@RqAHm@LeAPoADUD[H_@b@iABEDKJSHKDGDGNQLOPO@AFEHGTONGNGTIPENCPCTCB?RA^AN?n@AV?p@?TAXCPCREDA@ADAHENGPOLINOJMHKFIDI@?BGDIJQFOFOFQNi@R}@DS\\wA@ELg@Lk@H[DOh@yBPs@Nk@HWL[@EHSN[P]T_@@CXc@|A}B|AwBh@w@lAeBr@cAdBiCnBqCNUz@oAh@y@\\e@Zg@pAaBn@{@BCZ[b@_@`@SLE^KNE`@IfASTENEx@Oz@U^MTI|@Yb@Op@YVKPKj@]`@i@PWXg@R_@HOb@u@T_@RYTYn@{@`B}BZ]DEFILQJKRS^[FGRS@?\\Y\\Y\\Y^SNGLGDALEBA?@A`AWA"
+                        },
+                        "start_location": {
+                            "lat": 42.1400745,
+                            "lng": -71.3974114
+                        },
+                        "transit_details": {
+                            "arrival_stop": {
+                                "location": {
+                                    "lat": 42.1204033,
+                                    "lng": -71.3255794
+                                },
+                                "name": "Norfolk Commuter Rail Station"
+                            },
+                            "arrival_time": {
+                                "text": "6:08\u202fAM",
+                                "time_zone": "America/New_York",
+                                "value": 1680689280
+                            },
+                            "departure_stop": {
+                                "location": {
+                                    "lat": 42.1400745,
+                                    "lng": -71.3974114
+                                },
+                                "name": "Village Street Post Office"
+                            },
+                            "departure_time": {
+                                "text": "5:57\u202fAM",
+                                "time_zone": "America/New_York",
+                                "value": 1680688620
+                            },
+                            "headsign": "Norfolk MBTA Station",
+                            "line": {
+                                "agencies": [
+                                    {
+                                        "name": "Greater Attleboro Taunton Regional Transit Authority",
+                                        "phone": "1 (508) 823-8828",
+                                        "url": "http://www.gatra.org/"
+                                    }
+                                ],
+                                "color": "#4598cc",
+                                "name": "Medway T Shuttle",
+                                "text_color": "#000000",
+                                "url": "https://www.gatra.org/routes/medway-t-shuttle/",
+                                "vehicle": {
+                                    "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                                    "name": "Bus",
+                                    "type": "BUS"
+                                }
+                            },
+                            "num_stops": 1
+                        },
+                        "travel_mode": "TRANSIT"
+                    },
+                    {
+                        "distance": {
+                            "text": "325 ft",
+                            "value": 99
+                        },
+                        "duration": {
+                            "text": "1 min",
+                            "value": 79
+                        },
+                        "end_location": {
+                            "lat": 42.1207816,
+                            "lng": -71.3252806
+                        },
+                        "html_instructions": "Walk to Norfolk",
+                        "polyline": {
+                            "points": "wra`G|wirL@u@MBGBKDOF_@RGSK]"
+                        },
+                        "start_location": {
+                            "lat": 42.1202836,
+                            "lng": -71.3255911
+                        },
+                        "steps": [
+                            {
+                                "distance": {
+                                    "text": "92 ft",
+                                    "value": 28
+                                },
+                                "duration": {
+                                    "text": "1 min",
+                                    "value": 20
+                                },
+                                "end_location": {
+                                    "lat": 42.1202688,
+                                    "lng": -71.32531569999999
+                                },
+                                "html_instructions": "Head <b>east</b> toward <b>Rockwood Rd</b>",
+                                "polyline": {
+                                    "points": "wra`G|wirL@u@"
+                                },
+                                "start_location": {
+                                    "lat": 42.1202836,
+                                    "lng": -71.3255911
+                                },
+                                "travel_mode": "WALKING"
+                            },
+                            {
+                                "distance": {
+                                    "text": "171 ft",
+                                    "value": 52
+                                },
+                                "duration": {
+                                    "text": "1 min",
+                                    "value": 35
+                                },
+                                "end_location": {
+                                    "lat": 42.12068,
+                                    "lng": -71.3255331
+                                },
+                                "html_instructions": "Turn <b>left</b> onto <b>Rockwood Rd</b>",
+                                "maneuver": "turn-left",
+                                "polyline": {
+                                    "points": "ura`GfvirLMBGBKDOF_@R"
+                                },
+                                "start_location": {
+                                    "lat": 42.1202688,
+                                    "lng": -71.32531569999999
+                                },
+                                "travel_mode": "WALKING"
+                            },
+                            {
+                                "distance": {
+                                    "text": "62 ft",
+                                    "value": 19
+                                },
+                                "duration": {
+                                    "text": "1 min",
+                                    "value": 24
+                                },
+                                "end_location": {
+                                    "lat": 42.1207816,
+                                    "lng": -71.3252806
+                                },
+                                "html_instructions": "Turn <b>right</b> onto <b>Ware Dr</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                                "maneuver": "turn-right",
+                                "polyline": {
+                                    "points": "gua`GpwirLGSK]"
+                                },
+                                "start_location": {
+                                    "lat": 42.12068,
+                                    "lng": -71.3255331
+                                },
+                                "travel_mode": "WALKING"
+                            }
+                        ],
+                        "travel_mode": "WALKING"
+                    },
+                    {
+                        "distance": {
+                            "text": "20.8 mi",
+                            "value": 33445
+                        },
+                        "duration": {
+                            "text": "45 mins",
+                            "value": 2700
+                        },
+                        "end_location": {
+                            "lat": 42.336608,
+                            "lng": -71.089208
+                        },
+                        "html_instructions": "Train towards South Station via Forest Hills",
+                        "polyline": {
+                            "points": "iua`GruirLJIAEGUqGuUw@kCiCmJ{BaIgA}DmAeE_AkDQi@_AkDsBoH_@uAOk@Oi@_@wAK]EKo@aCQi@Ok@yG{UOi@Ok@W}@aByF}@_D_A_DmDkMCEOk@a@yAiD}L{BeImCgJcF_RYcAuIsZ]qAMc@cAsDOk@GU_AgEKc@cAiFcBsIqCaNs@gDe@{Be@sCa@gCKo@g@eCMm@aA_FYyAIa@CKMk@g@_CAEYyAYyAu@uDSeAo@yCyA{Gu@eDMe@]wAk@yBGUEUa@{AOe@_@uAq@_CmB}E_CuFeE{ICGYk@GMkCmFSe@Yo@IQKS_AuBu@aBkBwDm@qAoGqMm@kAYm@Q]Wi@a@y@EGm@sA]u@_AsBo@sAkAqCYk@uA{CEIiDiHYm@qAsCk@kA?AwAwCYi@Qa@aAsBKUqA{Bq@mAU_@mAoBiA{Au@eAaCcDgBcCEGMQMQgAwA[c@uCmEa@k@q@eA[]u@aAq@{@qAgBcCcDm@{@yCaEIKwC_EsEsGYa@{CgESWwAiBuEcGiBaCu@aAqDmFgBgCy@mAgAyAyDcFs@aAo@y@uAgBqA_BeAsAYc@aA_B}A{Bq@}@iEyF}E{GAAy@iAk@y@uEeHiDaGuB_EiCoFi@oA}@uBs@eBIQISUi@e@oAy@yBAE{AeEeCaHe@qAAEg@kAOYOWs@cAU]]e@s@aAoBeBiCqAeJcCcAOmA[sEoAcEgAGCuA_@cAYOEOEi@M[Iq@Su@SoFwAmCs@eAYuA]_@M_@KoBi@a@K{EqAy@Um@QeAWMEk@Ok@KYEa@I}@MyAQYCcAGwEQmBEkBGe@AsIQu@CuBEsAEM?gACUAG?[CkAC}@KcAMcAOgAYw@SiA_@gBu@aAg@s@e@mBuAeCqBuAcAiA{@uBaByAiA}BeBwEoD]W_@Y]Wo@g@MI_@WYUCC}@q@]Y]Y]YMKyEwDk@c@}DyCmG_F{AkA{AkASMQO{@q@aBoAkDkCOMgDuCo@g@}AkB[]w@}@UYACY_@y@mAU[CEWa@]i@cAeBMS_@u@u@wAwAgDGOiAoCWs@AEKUuA_FCKoCgJMc@e@_BuEuOwA_F]kA{DuMGS{IsZw@mCk@oBW{@IYQi@_@uAGUGSa@wAa@uAs@eCOi@oCgKIi@mAoGCQm@oEScBSaBYiCMoAI{AEaAm@qNQ_Ek@aMMkE]yIu@cQC_AIqBS_EIkAC]SiBQaAAIESOcAe@mBEOU}@a@qAK[]}@[}@aDm@i@ScAa@o@WyDwAmDsAcBo@g@QqBu@aC_A{CkAuCeAoDyAwFsBc@QeBo@IE}B{@c@QaA_@cA_@A?yCiA_DmAkCcAs@YSIoAg@KEuBw@ECcA_@SGcAa@CAiAc@oAe@sAg@iAc@_A]aA]GCkAa@qAc@eAYoAWgASAAmASmAQuAQuAQuAQoAQ_BU}ASuH_A}@M}Fu@aDa@_BUyAS}ASoAQcH{@{Dg@gBWaAOs@IkAOQCYEsBWA?_C[o@IaAM[EwAS_@EiBU_C[SC]E}ASwB[oAOmAOoAOmAQmDc@iAQMAWEkAOgBUeAKIAs@G{AK{AECA[?gAAuCAq@AuA?mAAaJCI?sA?kEEWAmDGgDK[AoCMcAG]Cu@EyAOMAuBWwAUuAYmAYgBe@sAc@gBk@]Oi@U{Aq@a@QECyBkAaBcAA?}@k@kAs@qBmAAA}AcAA?aE_CGEIE][]Y}G_F]M{By@i@Ui@Si@[_Ai@_Ak@eHcEgCsAyBmA_@S_@Q_DiB_DgBCAoBmAoAs@}BsASMkAq@i@[UOoAm@mAm@OIiAo@}@e@cAi@w@]a@OoAc@sAg@oAa@YKcBk@cBk@cCu@aCw@cBg@sAc@wAm@w@a@{EkCsA}@QQSQs@g@_Au@eA{@_Au@gA}@[WQOm@e@cAw@oA{@{@i@kHeDWMy@YiAg@eAa@AA]IoA[[Ko@Q{Aa@iDcAKCs@Uu@[_A_@UK_@Qq@Ye@YmAo@CAuAw@iAu@e@]c@]i@c@y@q@{@s@{@u@SQe@g@k@k@EG_@_@c@g@GGOOUWCCUYW[CC[a@]c@U[gAuA_DaECEkA{AoAaB[_@s@aAu@aAiBcCEF"
+                        },
+                        "start_location": {
+                            "lat": 42.120694,
+                            "lng": -71.325217
+                        },
+                        "transit_details": {
+                            "arrival_stop": {
+                                "location": {
+                                    "lat": 42.336608,
+                                    "lng": -71.089208
+                                },
+                                "name": "Ruggles"
+                            },
+                            "arrival_time": {
+                                "text": "7:08\u202fAM",
+                                "time_zone": "America/New_York",
+                                "value": 1680692880
+                            },
+                            "departure_stop": {
+                                "location": {
+                                    "lat": 42.120694,
+                                    "lng": -71.325217
+                                },
+                                "name": "Norfolk"
+                            },
+                            "departure_time": {
+                                "text": "6:23\u202fAM",
+                                "time_zone": "America/New_York",
+                                "value": 1680690180
+                            },
+                            "headsign": "South Station via Forest Hills",
+                            "line": {
+                                "agencies": [
+                                    {
+                                        "name": "MBTA",
+                                        "phone": "1 (617) 222-3200",
+                                        "url": "http://www.mbta.com/"
+                                    }
+                                ],
+                                "color": "#80276c",
+                                "name": "Franklin/Foxboro Line",
+                                "text_color": "#ffffff",
+                                "url": "https://www.mbta.com/schedules/CR-Franklin",
+                                "vehicle": {
+                                    "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png",
+                                    "local_icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/us-boston-mbta.png",
+                                    "name": "Train",
+                                    "type": "HEAVY_RAIL"
+                                }
+                            },
+                            "num_stops": 10,
+                            "trip_short_name": "702"
+                        },
+                        "travel_mode": "TRANSIT"
+                    },
+                    {
+                        "distance": {
+                            "text": "128 ft",
+                            "value": 39
+                        },
+                        "duration": {
+                            "text": "49710 days 6 hours",
+                            "value": 34
+                        },
+                        "end_location": {
+                            "lat": 42.336451,
+                            "lng": -71.089635
+                        },
+                        "html_instructions": "Walk to Ruggles",
+                        "polyline": {
+                            "points": "yzkaGpr{pL^tA"
+                        },
+                        "start_location": {
+                            "lat": 42.336608,
+                            "lng": -71.089208
+                        },
+                        "steps": [
+                            {
+                                "distance": {
+                                    "text": "1 ft",
+                                    "value": 0
+                                },
+                                "duration": {
+                                    "text": "1 min",
+                                    "value": 29
+                                },
+                                "end_location": {
+                                    "lat": 42.336608,
+                                    "lng": -71.089208
+                                },
+                                "polyline": {
+                                    "points": "yzkaGpr{pL"
+                                },
+                                "start_location": {
+                                    "lat": 42.336608,
+                                    "lng": -71.089208
+                                },
+                                "travel_mode": "WALKING"
+                            },
+                            {
+                                "distance": {
+                                    "text": "1 ft",
+                                    "value": 0
+                                },
+                                "duration": {
+                                    "text": "1 min",
+                                    "value": 1
+                                },
+                                "end_location": {
+                                    "lat": 42.336608,
+                                    "lng": -71.089208
+                                },
+                                "polyline": {
+                                    "points": "yzkaGpr{pL"
+                                },
+                                "start_location": {
+                                    "lat": 42.336608,
+                                    "lng": -71.089208
+                                },
+                                "travel_mode": "WALKING"
+                            },
+                            {
+                                "distance": {
+                                    "text": "1 ft",
+                                    "value": 0
+                                },
+                                "duration": {
+                                    "text": "1 min",
+                                    "value": 8
+                                },
+                                "end_location": {
+                                    "lat": 42.336608,
+                                    "lng": -71.089208
+                                },
+                                "polyline": {
+                                    "points": "yzkaGpr{pL"
+                                },
+                                "start_location": {
+                                    "lat": 42.336608,
+                                    "lng": -71.089208
+                                },
+                                "travel_mode": "WALKING"
+                            },
+                            {
+                                "distance": {
+                                    "text": "1 ft",
+                                    "value": 0
+                                },
+                                "duration": {
+                                    "text": "49710 days 6 hours",
+                                    "value": 4294967285
+                                },
+                                "end_location": {
+                                    "lat": 42.336608,
+                                    "lng": -71.089208
+                                },
+                                "polyline": {
+                                    "points": "yzkaGpr{pL"
+                                },
+                                "start_location": {
+                                    "lat": 42.336608,
+                                    "lng": -71.089208
+                                },
+                                "travel_mode": "WALKING"
+                            },
+                            {
+                                "distance": {
+                                    "text": "128 ft",
+                                    "value": 39
+                                },
+                                "duration": {
+                                    "text": "1 min",
+                                    "value": 7
+                                },
+                                "end_location": {
+                                    "lat": 42.336451,
+                                    "lng": -71.089635
+                                },
+                                "polyline": {
+                                    "points": "yzkaGpr{pL^tA"
+                                },
+                                "start_location": {
+                                    "lat": 42.336608,
+                                    "lng": -71.089208
+                                },
+                                "travel_mode": "WALKING"
+                            }
+                        ],
+                        "travel_mode": "WALKING"
+                    },
+                    {
+                        "distance": {
+                            "text": "2.8 mi",
+                            "value": 4448
+                        },
+                        "duration": {
+                            "text": "18 mins",
+                            "value": 1080
+                        },
+                        "end_location": {
+                            "lat": 42.363021,
+                            "lng": -71.05829
+                        },
+                        "html_instructions": "Subway towards Oak Grove",
+                        "polyline": {
+                            "points": "yykaGfu{pLJQSWSWc@i@qCsDgAuAkNaRiBcCeAuAc@m@KOW_@]g@s@eAmDoEsBcCo@y@KIyAmB_@g@oHmJcB_C}AyBw@eAU_@Sc@EMKc@?CAE?AI_@K}AGmAAkAAcBAu@?_GAiCBwGBqF@cAP{C?g@C[Ke@aHsROQyAU[GA?_@GyBwB{@aASMYK}B_@eDa@QCC?y@Go@Ci@Ak@OWKu@s@c@e@iDcDiAuAu@u@CAsA}AcBsBwAwBaEmDWOOAwC?U?{GCmMf@s@H[NEBVp@"
+                        },
+                        "start_location": {
+                            "lat": 42.336451,
+                            "lng": -71.089635
+                        },
+                        "transit_details": {
+                            "arrival_stop": {
+                                "location": {
+                                    "lat": 42.363021,
+                                    "lng": -71.05829
+                                },
+                                "name": "Haymarket"
+                            },
+                            "arrival_time": {
+                                "text": "7:29\u202fAM",
+                                "time_zone": "America/New_York",
+                                "value": 1680694140
+                            },
+                            "departure_stop": {
+                                "location": {
+                                    "lat": 42.336451,
+                                    "lng": -71.089635
+                                },
+                                "name": "Ruggles"
+                            },
+                            "departure_time": {
+                                "text": "7:11\u202fAM",
+                                "time_zone": "America/New_York",
+                                "value": 1680693060
+                            },
+                            "headsign": "Oak Grove",
+                            "line": {
+                                "agencies": [
+                                    {
+                                        "name": "MBTA",
+                                        "phone": "1 (617) 222-3200",
+                                        "url": "http://www.mbta.com/"
+                                    }
+                                ],
+                                "color": "#ed8b00",
+                                "name": "Orange Line",
+                                "text_color": "#ffffff",
+                                "url": "https://www.mbta.com/schedules/Orange",
+                                "vehicle": {
+                                    "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                                    "local_icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/us-boston-mbta.png",
+                                    "name": "Subway",
+                                    "type": "SUBWAY"
+                                }
+                            },
+                            "num_stops": 7
+                        },
+                        "travel_mode": "TRANSIT"
+                    },
+                    {
+                        "distance": {
+                            "text": "0.2 mi",
+                            "value": 393
+                        },
+                        "duration": {
+                            "text": "5 mins",
+                            "value": 284
+                        },
+                        "end_location": {
+                            "lat": 42.3609433,
+                            "lng": -71.0594296
+                        },
+                        "html_instructions": "Walk to Government Center, Boston, MA, USA",
+                        "polyline": {
+                            "points": "{_qaGhqupLnEaB?ABANKJIVQFC@AROBABDBCTx@a@RIFUPDLLXJX\\t@`@pAPf@HT?@@?@@@??AB?@A@?@?@@@@@BFN"
+                        },
+                        "start_location": {
+                            "lat": 42.363021,
+                            "lng": -71.05829
+                        },
+                        "steps": [
+                            {
+                                "distance": {
+                                    "text": "1 ft",
+                                    "value": 0
+                                },
+                                "duration": {
+                                    "text": "1 min",
+                                    "value": 5
+                                },
+                                "end_location": {
+                                    "lat": 42.363021,
+                                    "lng": -71.05829
+                                },
+                                "polyline": {
+                                    "points": "{_qaGhqupL"
+                                },
+                                "start_location": {
+                                    "lat": 42.363021,
+                                    "lng": -71.05829
+                                },
+                                "travel_mode": "WALKING"
+                            },
+                            {
+                                "distance": {
+                                    "text": "1 ft",
+                                    "value": 0
+                                },
+                                "duration": {
+                                    "text": "1 min",
+                                    "value": 7
+                                },
+                                "end_location": {
+                                    "lat": 42.363021,
+                                    "lng": -71.05829
+                                },
+                                "polyline": {
+                                    "points": "{_qaGhqupL"
+                                },
+                                "start_location": {
+                                    "lat": 42.363021,
+                                    "lng": -71.05829
+                                },
+                                "travel_mode": "WALKING"
+                            },
+                            {
+                                "distance": {
+                                    "text": "1 ft",
+                                    "value": 0
+                                },
+                                "duration": {
+                                    "text": "1 min",
+                                    "value": 4
+                                },
+                                "end_location": {
+                                    "lat": 42.363021,
+                                    "lng": -71.05829
+                                },
+                                "polyline": {
+                                    "points": "{_qaGhqupL"
+                                },
+                                "start_location": {
+                                    "lat": 42.363021,
+                                    "lng": -71.05829
+                                },
+                                "travel_mode": "WALKING"
+                            },
+                            {
+                                "distance": {
+                                    "text": "1 ft",
+                                    "value": 0
+                                },
+                                "duration": {
+                                    "text": "1 min",
+                                    "value": 7
+                                },
+                                "end_location": {
+                                    "lat": 42.363021,
+                                    "lng": -71.05829
+                                },
+                                "polyline": {
+                                    "points": "{_qaGhqupL"
+                                },
+                                "start_location": {
+                                    "lat": 42.363021,
+                                    "lng": -71.05829
+                                },
+                                "travel_mode": "WALKING"
+                            },
+                            {
+                                "distance": {
+                                    "text": "1 ft",
+                                    "value": 0
+                                },
+                                "duration": {
+                                    "text": "1 min",
+                                    "value": 5
+                                },
+                                "end_location": {
+                                    "lat": 42.363021,
+                                    "lng": -71.05829
+                                },
+                                "polyline": {
+                                    "points": "{_qaGhqupL"
+                                },
+                                "start_location": {
+                                    "lat": 42.363021,
+                                    "lng": -71.05829
+                                },
+                                "travel_mode": "WALKING"
+                            },
+                            {
+                                "distance": {
+                                    "text": "1 ft",
+                                    "value": 0
+                                },
+                                "duration": {
+                                    "text": "1 min",
+                                    "value": 0
+                                },
+                                "end_location": {
+                                    "lat": 42.363021,
+                                    "lng": -71.05829
+                                },
+                                "polyline": {
+                                    "points": "{_qaGhqupL"
+                                },
+                                "start_location": {
+                                    "lat": 42.363021,
+                                    "lng": -71.05829
+                                },
+                                "travel_mode": "WALKING"
+                            },
+                            {
+                                "distance": {
+                                    "text": "400 ft",
+                                    "value": 122
+                                },
+                                "duration": {
+                                    "text": "1 min",
+                                    "value": 7
+                                },
+                                "end_location": {
+                                    "lat": 42.361977,
+                                    "lng": -71.057805
+                                },
+                                "html_instructions": "Take exit <span class=\"location\">Haymarket - RMV, City Hall, Faneuil Hall Marketplace</span>",
+                                "polyline": {
+                                    "points": "{_qaGhqupLnEaB"
+                                },
+                                "start_location": {
+                                    "lat": 42.363021,
+                                    "lng": -71.05829
+                                },
+                                "travel_mode": "WALKING"
+                            },
+                            {
+                                "distance": {
+                                    "text": "194 ft",
+                                    "value": 59
+                                },
+                                "duration": {
+                                    "text": "1 min",
+                                    "value": 50
+                                },
+                                "end_location": {
+                                    "lat": 42.36149,
+                                    "lng": -71.0574744
+                                },
+                                "html_instructions": "Head <b>southeast</b> on <b>Congress St</b> toward <b>Hanover St</b>",
+                                "polyline": {
+                                    "points": "kypaGdnupLBANKJIVQFC@AROBABDBC"
+                                },
+                                "start_location": {
+                                    "lat": 42.361982,
+                                    "lng": -71.057794
+                                },
+                                "travel_mode": "WALKING"
+                            },
+                            {
+                                "distance": {
+                                    "text": "43 ft",
+                                    "value": 13
+                                },
+                                "duration": {
+                                    "text": "1 min",
+                                    "value": 19
+                                },
+                                "end_location": {
+                                    "lat": 42.3613842,
+                                    "lng": -71.057762
+                                },
+                                "html_instructions": "Turn <b>right</b> toward <b>Congress St</b>",
+                                "maneuver": "turn-right",
+                                "polyline": {
+                                    "points": "ivpaGdlupLTx@"
+                                },
+                                "start_location": {
+                                    "lat": 42.36149,
+                                    "lng": -71.0574744
+                                },
+                                "travel_mode": "WALKING"
+                            },
+                            {
+                                "distance": {
+                                    "text": "135 ft",
+                                    "value": 41
+                                },
+                                "duration": {
+                                    "text": "1 min",
+                                    "value": 40
+                                },
+                                "end_location": {
+                                    "lat": 42.3617134,
+                                    "lng": -71.05798709999999
+                                },
+                                "html_instructions": "Turn <b>right</b> onto <b>Congress St</b>",
+                                "maneuver": "turn-right",
+                                "polyline": {
+                                    "points": "supaG~mupLa@RIFUP"
+                                },
+                                "start_location": {
+                                    "lat": 42.3613842,
+                                    "lng": -71.057762
+                                },
+                                "travel_mode": "WALKING"
+                            },
+                            {
+                                "distance": {
+                                    "text": "0.1 mi",
+                                    "value": 158
+                                },
+                                "duration": {
+                                    "text": "2 mins",
+                                    "value": 140
+                                },
+                                "end_location": {
+                                    "lat": 42.3609433,
+                                    "lng": -71.0594296
+                                },
+                                "html_instructions": "Turn <b>left</b><div style=\"font-size:0.9em\">Take the stairs</div><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+                                "maneuver": "turn-left",
+                                "polyline": {
+                                    "points": "uwpaGloupLDLLXJX\\t@`@pAPf@HT?@@?@@@??AB?@A@?@?@@@@@BFN"
+                                },
+                                "start_location": {
+                                    "lat": 42.3617134,
+                                    "lng": -71.05798709999999
+                                },
+                                "travel_mode": "WALKING"
+                            }
+                        ],
+                        "travel_mode": "WALKING"
                     }
                 ],
-                "pageRules": "PropertySearchLookupResponseRules(isAdsRestricted=false, lowestLimitSearchResultsCount=null)",
-                "shareConfig": {
-                    "captchaKey": "6Lf2nvMSAAAAAMQ5p6WlAfDEixMdOQgJsij-3_ud"
-                }
+                "traffic_speed_entry": [],
+                "via_waypoint": []
             }
+        ],
+        "overview_polyline": {
+            "points": "c~b`GruurLcBb@]J?TAt@@l@b@hITlDV|FDpD`@`KT~EFHPF`DBtBF{BlHuAtEg@dCInAqIvA_I`A_Ix@}E^wBGwAS}Bm@sHuBgGkAwA]o@a@i@g@aAkAwAcBm@i@{Ac@}@IE~@L@UCFgABoDCkDiAqJiAmY?mAN}Bn@sC~@kBvG}Hr@cBf@aDL}FEsCGs@s@gDeBwGcBoH}@}Ji@kCcBuEcEiJwBuGkDeJw@qCkBsIoAyEgDaKuCiI{@{Bk@qALqAFo@VeD`@oDVaC`D_Bn@i@WmC[mGO_Cg@iDEqCb@iDhAcHd@sDzDcBzBw@z@IdDAnBG`Bg@~@m@hAmAzAeBtBmBdDqCbAsAdAgBXkAd@cC|@uGJq@l@iB^q@h@q@d@_@jAi@hAQfACnCCdAO`@Qz@w@v@sAfBcH`CeJl@sAnCeEjP{UtDiFrB{B~Ak@nCi@jD}@jDoA|@i@r@aAzAmCzF{HhCcCz@s@n@[d@QAbAWAV@@u@MBSHo@ZSq@\\UI[oQqo@gFyQeHiWmc@}}AaV_{@_CuIwCkNoIya@{BqMsBiKyDmRmEaSwA}FcCwImFsMiEcJaEmIoBkEqQ__@iIqQuNwZyBuEgFyIsMmQeGcJuEcGwZkb@kLgOiKeOeJyLgG_I_D{E{FwHeIaL_KgP_GoLeD}HiKgYiAcC{CiEoBeBiCqAiLsCmNwDgJeCkVsGiKqC_Cg@sEm@uNg@eVi@mDSgC]_Cm@qDuAuBmAsKgIqTsPcF{Dk\\gW{I}GwDcDmCsCkByBmBoCgCeEuDeIoB_FwFwRi]mkAqDgMuFmSwAyHq@aFoA_LoAoYmCkp@k@}Lk@sEaAuEaBiF[}@aDm@mBu@{NsFwLsEsZiLm_@uNmOwFwC}@wCk@sFy@k`@cFqa@mFg^uE}U{CgLuAwESeJEmOEyP[mG[sGo@cJoBcGuB}FsCmFcDeM{H{HyFyCgAsAi@iBeAgRqK_KwFaNcIwFuC{E}B{U_IwDkAoCoAoHiEe@c@yFoEcDkCsCsBgJoEaFqBmMoD_E}AeEuBiEmCcEgDaD{CqAwAuCkDmNyQ_DeEX|AJQSWw@aAoXo^mCsDqAmBaHsIuDyEsKmNuC_Ei@cAQq@Kk@SkDCoD?wUDuHPcEOaAqHeSwCe@uDyDm@YyHeAiBKuAQmA_AmEiEwEkF{DkFyE}D}DA{GCmMf@oAXEBVp@nEcBv@i@\\UFBXt@k@ZUPDLXr@~@fC\\~@F?F?JT"
         },
-        "categoryTotals": {
-            "cat1": {
-                "totalResultCount": 10
-            },
-            "cat2": {
-                "totalResultCount": 0
-            }
-        }
-    },
-    "message": "success"
-}
+        "summary": "",
+        "warnings": [
+            "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+        ],
+        "waypoint_order": []
+    }
+]
